@@ -1,0 +1,9 @@
+This project creates apis for getting employee details and list,
+adding new employee, modifying and deleting employees. It also uses HTTPAUTH (rashmi/python)
+The API list is :-
+
+1. http://127.0.0.1:5000/api/emplist             GET
+2. http://127.0.0.1:5000/api/emps/<employee-id>  GET
+3. http://127.0.0.1:5000/api/emp/add             POST  {Para:- Id,Name,Dept,Designation}
+4. http://127.0.0.1:5000/api/emps/<employee-id>  PUT   (Para:- Designation,Dept)
+5. http://127.0.0.1:5000/api/emps/<employee-id>  DELETE
